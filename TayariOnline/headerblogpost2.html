@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TayariOnline - Want To Explore</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/solid.css" rel="stylesheet">
+
+    <!-- Splide core CSS -->
+    <link href="vendor/jcarousel/splide.min.css" rel="stylesheet">
+    <!-- Pagination core CSS -->
+    <link rel="stylesheet" href="vendor/pagination/css/simplePagination.css">
+    <!-- JQuery core CSS -->
+    <link rel="stylesheet" href="vendor/jquery/jquery-ui.css">
+    <!-- AOS Animate core JavaScript -->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="vendor/aos animation/css/aos.css">
+    <link rel="stylesheet" href="vendor/css3 animate/css/animations.css">
+
+
+    <style>
+        /* =============== Header Blogspot 2 ==================*/
+
+        #headerblogpost2 {
+            margin: 40px 0;
+        }
+
+        #headerblogpost2 .col-12 {
+            display: flex;
+        }
+
+        #headerblogpost2 .col-8 {}
+
+        #headerblogpost2 .header-blogpost2-title {
+            display: flex;
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        #headerblogpost2 .header-blogpost2-title::after {
+            content: '';
+            border-bottom: 2px solid #ccc;
+            width: 100%;
+            position: absolute;
+            bottom: 8px;
+            right: 0;
+            z-index: 0;
+        }
+
+        #headerblogpost2 .header-blogpost2-title h3 {
+            font: 600 25px/18px "Roboto Slab", Verdana, sans-serif;
+            padding: 10px 10px 15px 0;
+            border-bottom: 2px solid #FF4500;
+            border-right: 1px solid #ccc;
+            text-align: left;
+            z-index: 1;
+            text-transform: capitalize;
+        }
+
+        #headerblogpost2 .header-blogpost2-title span {
+            margin: auto 0 8px 0;
+            padding: 6px;
+            border-bottom: 2px solid #FF4500;
+            z-index: 1;
+        }
+
+        #headerblogpost2 .header-blogpost2-title span a {
+            font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+            text-decoration: none;
+            padding: 6px;
+            color: #5b5b5b;
+            transition: all .4s ease-in-out;
+        }
+
+        #headerblogpost2 .header-blogpost2-title span:hover>a {
+            color: #FF4500;
+        }
+
+        /*======================== Blogspot 2 Style 1==================================*/
+
+        #headerblogpost2 .splide {
+            max-width: 100%;
+        }
+
+        #headerblogpost2 .splide ul li {
+            display: flex;
+            position: relative;
+        }
+
+        #headerblogpost2 .my_arrow_prev {
+            left: 84%;
+            top: -60px;
+            bottom: 0;
+            right: 0;
+            background: #ccc;
+            width: 35px;
+            height: 35px;
+        }
+
+        #headerblogpost2 .my_arrow_next {
+            left: 90%;
+            top: -60px;
+            bottom: 0;
+            right: 0;
+            background: #ccc;
+            width: 35px;
+            height: 35px;
+        }
+
+        #headerblogpost2 .card.style1 {
+            padding-bottom: 10px;
+            border-radius: 0;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        #headerblogpost2 .card.style1 .col-sm-5 {
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        #headerblogpost2 .card.style1 .col-sm-7 {
+            max-width: 100%;
+        }
+
+        #headerblogpost2 .card.style1 .card-img-top {
+            z-index: 0;
+            transition: all 0.4s ease-in-out;
+        }
+
+        #headerblogpost2 .card.style1 .img-overlay {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            transition: all 0.4s ease-in-out;
+            cursor: pointer;
+        }
+
+        #headerblogpost2 .card.style1:hover .card-img-top {
+            transform: scale(1.12);
+        }
+
+        #headerblogpost2 .card.style1 .card-body .card-title a {
+            font: 500 22px/18px "Roboto Slab", Verdana, sans-serif;
+            text-decoration: none;
+            color: #181818;
+            transition: all .4s ease-in-out;
+        }
+
+        #headerblogpost2 .card.style1 .card-body span {
+            font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+            color: #333;
+        }
+
+        #headerblogpost2 .card.style1 .card-body span i {
+            font-size: 13px;
+            margin-right: 6px;
+        }
+
+        #headerblogpost2 .card.style1 .card-body .card-text {
+            font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        #headerblogpost2 .card.style1 .card-body .card-title:hover>a {
+            color: #FF4500;
+        }
+
+        #headerblogpost2 .card.style1 .card-body span.author-title a {
+            font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+            color: #404040;
+            text-decoration: none;
+        }
+
+        #headerblogpost2 .card.style1 span.category {
+            position: absolute;
+            top: 6%;
+            z-index: 2;
+            left: 2%;
+        }
+
+        #headerblogpost2 .card.style1 span.category a {
+            font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+            color: white;
+            text-decoration: none;
+            background: #FF4500;
+            padding: 6px;
+            border-radius: 3px;
+            text-transform: capitalize;
+        }
+
+        /*======================== Blogspot 2 Style 2 ==================================*/
+
+        #headerblogpost2 ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        #headerblogpost2 .card.style2 {
+            margin-bottom: 12px;
+            cursor: pointer;
+            border-radius: 0;
+            height: 149px;
+            overflow: hidden;
+        }
+
+        #headerblogpost2 .card.style2 .col-sm-5 {
+            overflow: hidden;
+        }
+
+        #headerblogpost2 .card.style2 .card-img-top {
+            transition: all 0.4s ease-in-out;
+            height: 149px;
+        }
+
+        #headerblogpost2 .card.style2 .img-overlay {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 149px;
+            z-index: 2;
+            transition: all 0.4s ease-in-out;
+            cursor: pointer;
+        }
+
+        #headerblogpost2 .card.style2:hover .card-img-top {
+            transform: scale(1.12);
+        }
+
+        #headerblogpost2 .card.style2 .card-body {
+            height: 149px;
+            padding: 6px 8px;
+        }
+
+        #headerblogpost2 .card.style2 .card-body .card-title {
+            margin-bottom: 6px;
+        }
+
+        #headerblogpost2 .card.style2 .card-body .card-title a {
+            text-decoration: none;
+            font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+            color: #181818;
+            transition: all 0.4s ease-in-out;
+            padding: 0;
+        }
+
+        #headerblogpost2 .card.style2 .card-body span i {
+            font-size: 10px;
+            margin-right: 6px;
+        }
+
+        #headerblogpost2 .card.style2 .card-body .card-text {
+            font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        #headerblogpost2 .card.style2 .card-body .card-title:hover>a {
+            color: #FF4500;
+        }
+
+        #headerblogpost2 .card.style2 .card-body span.author-title a {
+            font: 500 11px/18px "Roboto Slab", Verdana, sans-serif;
+            color: #404040;
+            text-decoration: none;
+        }
+
+        #headerblogpost2 .card.style2 .card-body span.published-date {
+            font: 500 11px/18px "Roboto Slab", Verdana, sans-serif;
+            color: #404040;
+        }
+
+        #headerblogpost2 .card.style2 .card-body span.category {
+            position: absolute;
+            top: 6%;
+            z-index: 2;
+        }
+
+        #headerblogpost2 .card.style2 .card-body span.category a {
+            font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+            color: white;
+            text-decoration: none;
+            background: #FF4500;
+            padding: 6px;
+            border-radius: 3px;
+        }
+
+        /*======================== End Blogspot 2 Style 2 ==================================*/
+
+
+        /* =============== End Header Blogpost 2 Style 1 ==================*/
+
+        /* =============== Sidebar ==================*/
+
+        #headerblogpost2 nav {}
+
+        #headerblogpost2 .nav-tabs {
+            margin-bottom: 38px;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .nav-tabs .nav-link.active {
+            border-color: white;
+        }
+
+        #headerblogpost2 nav .nav a {
+            font: 600 20px/18px "Roboto Slab", Verdana, sans-serif;
+            color: #181818;
+            margin-bottom: -2px;
+            padding: 11.55px;
+        }
+
+        #headerblogpost2 nav .nav-tabs .nav-link.active {
+            color: #ff4500;
+            border-bottom: 2px solid #ff4500;
+        }
+
+        #headerblogpost2 nav .nav-tabs .nav-link.active::after {}
+
+        #headerblogpost2 .tab-content .card.style2 {
+
+            margin-bottom: 12px;
+            cursor: pointer;
+            border-radius: 0;
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .col-sm-5 {
+            overflow: hidden;
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .card-img-top {
+            transition: all 0.4s ease-in-out;
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .img-overlay {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+            transition: all 0.4s ease-in-out;
+            cursor: pointer;
+        }
+
+        #headerblogpost2 .tab-content .card.style2:hover .card-img-top {
+            transform: scale(1.12);
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .card-body {
+            padding: 0 10px 10px 10px;
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .card-body .card-title {
+            margin-bottom: 6px;
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .card-body .card-title a {
+            text-decoration: none;
+            font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+            color: #181818;
+            transition: all 0.4s ease-in-out;
+            padding: 0;
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .card-body span {
+            font: 500 11px/18px "Roboto Slab", Verdana, sans-serif;
+            color: #181818;
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .card-body span i {
+            font-size: 10px;
+            margin-right: 6px;
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .card-body .card-text {
+            font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .card-body .card-title:hover>a {
+            color: #FF4500;
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .card-body span.author-title a {
+            font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+            color: #404040;
+            text-decoration: none;
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .card-body span.category {
+            position: absolute;
+            top: 6%;
+            z-index: 2;
+        }
+
+        #headerblogpost2 .tab-content .card.style2 .card-body span.category a {
+            font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+            color: white;
+            text-decoration: none;
+            background: #FF4500;
+            padding: 6px;
+            border-radius: 3px;
+        }
+
+        /* =============== End Sidebar ==================*/
+
+
+        .my_arrow {
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 3em;
+            height: 3em;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            padding: 0;
+            opacity: .7;
+            background: rgba(255, 255, 255, 0.77);
+            transition: all .4s ease-in-out;
+            outline: none;
+        }
+
+        .my_arrow.my_arrow_prev {
+            left: 1em;
+            cursor: pointer;
+            transition: all .4s ease-in-out;
+            outline: none;
+        }
+
+        .my_arrow.my_arrow_prev::after {
+            content: "\f104";
+            font-family: 'Font Awesome 5 Free';
+            color: #373e59;
+            font-size: 25px;
+        }
+
+        .my_arrow.my_arrow_next {
+            right: 1rem;
+            cursor: pointer;
+            transition: all .4s ease-in-out;
+            outline: none;
+        }
+
+        .my_arrow.my_arrow_next::after {
+            content: "\f105";
+            font-family: 'Font Awesome 5 Free';
+            color: #373e59;
+            font-size: 25px;
+        }
+
+        .my_arrow.my_arrow_next:hover,
+        .my_arrow.my_arrow_prev:hover {
+            background: #373e59;
+        }
+
+        .my_arrow.my_arrow_next:hover ::after,
+        .my_arrow.my_arrow_prev:hover ::after {
+            color: white;
+        }
+
+        svg {
+            display: none;
+        }
+
+        @media screen and (max-width: 768px) {
+
+            /* Columns */
+            #headerblogpost2 .col-8,
+            #headerblogpost2 .col-4,
+            #headerblogpost2 .splide .col-6 {
+                max-width: 100%;
+            }
+
+            #headerblogpost2 .splide .col-6 {
+                flex: 0 0 100%;
+                padding-right: 0 !important;
+            }
+
+            #headerblogpost2 .col-12 {
+                display: block;
+            }
+
+            #headerblogpost2 .col-4 {
+                margin-top: 40px;
+            }
+
+            /* Card */
+            #headerblogpost2 .card.style1 {
+                margin-right: 0;
+            }
+
+            /* Heading Title */
+            #headerblogpost2 .header-blogpost2-title {
+                display: contents;
+            }
+
+            #headerblogpost2 .header-blogpost2-title h3 {
+                font: 600 18px/18px "Roboto Slab", Verdana, sans-serif;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            #headerblogpost2 .header-blogpost2-title span {
+                font: 500 12px/18px "Roboto Slab", Verdana, sans-serif;
+            }
+
+            /* Splide */
+            #headerblogpost2 .splide {
+                margin-top: 20px;
+            }
+
+            #headerblogpost2 .splide ul li {
+                display: inline;
+            }
+
+            /* Splide Arrows */
+            #headerblogpost2 .my_arrow_prev {
+                left: 74%;
+                top: -74px;
+            }
+
+            #headerblogpost2 .my_arrow_next {
+                left: 87%;
+                top: -74px;
+            }
+
+            /* Heading */
+            #headerblogpost2 .card.style1 .card-body .card-title a,
+            #headerblogpost2 .card.style2 .card-body .card-title a {
+                font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+            }
+
+            /* Author Title and Date */
+            #headerblogpost2 .card.style1 .card-body span.author-title a,
+            #headerblogpost2 .card.style1 .card-body span.published-date a,
+            #headerblogpost2 .card.style2 .card-body span.author-title a,
+            #headerblogpost2 .card.style2 .card-body span.published-date a {
+                font: 500 12px/18px "Roboto Slab", Verdana, sans-serif;
+            }
+
+            /* Paragraph */
+            #headerblogpost2 .card.style1 .card-body .card-text,
+            #headerblogpost2 .card.style2 .card-body .card-text {
+                font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+            }
+
+            /* Card List */
+            #headerblogpost2 .card.style2 {
+                height: 100%;
+                width: 100%;
+            }
+
+            #headerblogpost2 .card.style2 .row {
+                display: contents;
+            }
+
+            #headerblogpost2 .card.style2 .col-sm-5 {
+                max-width: 100%;
+            }
+
+            #headerblogpost2 .card.style2 .col-sm-7 {
+                max-width: 100%;
+            }
+
+            #headerblogpost2 .card.style2 .card-img-top,
+            #headerblogpost2 .card.style2 .img-overlay {
+                height: 100%;
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+            /* Heading */
+            #headercarousel .header-carousel .card-title a {
+                font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+            }
+
+            /* Author Title and Date */
+            #headercarousel .header-carousel span.author-title a,
+            #headercarousel .header-carousel span.published-date a {
+                font: 500 12px/18px "Roboto Slab", Verdana, sans-serif;
+            }
+
+            /* Paragraph */
+            #headercarousel .header-carousel .card-text {
+                font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section id="headerblogpost2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="col-8">
+                        <div class="header-blogpost2-title">
+                            <h3>Fashion</h3>
+                            <span><a href="#">Yoga</a></span>
+                            <span><a href="#">Workouts</a></span>
+                            <span><a href="#">Training</a></span>
+                        </div>
+                        <div class="splide">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="col-6 p-0">
+                                            <div class="card style1">
+                                                <div class="col-sm-5 p-0">
+                                                    <span class="category"><a href="#">Beauty</a></span>
+                                                    <div class="img-overlay"></div>
+                                                    <img src="../vendor/img/Business/pexels-img12.jpg"
+                                                        class="card-img-top" alt="Card image cap">
+                                                </div>
+                                                <div class="col-sm-7 p-0">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title"><a href="#">5 Healthy Living Tips
+                                                                for
+                                                                Young Men
+                                                                to
+                                                                Stay
+                                                                Healthy</a></h5>
+                                                        <span class="author-title"><i class="fa fa-user"></i><a
+                                                                href="#">Carlous
+                                                                Lous</a></span>
+                                                        <span class="published-date"><i
+                                                                class="fa fa-calendar-alt"></i>12.12.2020</span>
+                                                        <p class="card-text">Many people find that by
+                                                            establishing
+                                                            good living
+                                                            habits
+                                                            and
+                                                            lifestyle practices at a young age, it becomes much
+                                                            easier to
+                                                            maintain
+                                                            them
+                                                            and
+                                                            stay healthy throughout the rest of their life.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 p-0">
+                                            <div class="card style2">
+                                                <div class="row no-gutters">
+                                                    <div class="col-sm-5">
+                                                        <div class="img-overlay"></div>
+                                                        <img src="../vendor/img/Business/pexels-img12.jpg"
+                                                            class="card-img-top" alt="Card image cap">
+                                                    </div>
+                                                    <div class="col-sm-7">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title"><a href="#">5 Healthy Living
+                                                                    Tips
+                                                                    for Young Men
+                                                                    to
+                                                                    Stay
+                                                                    Healthy</a></h5>
+                                                            <span class="author-title"><i class="fa fa-user"></i><a
+                                                                    href="#">Carlous
+                                                                    Lous</a></span>
+                                                            <span class="published-date"><i
+                                                                    class="fa fa-calendar-alt"></i>12.12.2020</span>
+                                                            <p class="card-text">Many people find that by
+                                                                establishing good living
+                                                                habits ...</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card style2">
+                                                <div class="row no-gutters">
+                                                    <div class="col-sm-5">
+                                                        <div class="img-overlay"></div>
+                                                        <img src="../vendor/img/Business/pexels-img12.jpg"
+                                                            class="card-img-top" alt="Card image cap">
+                                                    </div>
+                                                    <div class="col-sm-7">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title"><a href="#">5 Healthy Living
+                                                                    Tips
+                                                                    for Young Men
+                                                                    to
+                                                                    Stay
+                                                                    Healthy</a></h5>
+                                                            <span class="author-title"><i class="fa fa-user"></i><a
+                                                                    href="#">Carlous
+                                                                    Lous</a></span>
+                                                            <span class="published-date"><i
+                                                                    class="fa fa-calendar-alt"></i>12.12.2020</span>
+                                                            <p class="card-text">Many people find that by
+                                                                establishing good living
+                                                                habits ...</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card style2">
+                                                <div class="row no-gutters">
+                                                    <div class="col-sm-5">
+                                                        <div class="img-overlay"></div>
+                                                        <img src="../vendor/img/Business/pexels-img12.jpg"
+                                                            class="card-img-top" alt="Card image cap">
+                                                    </div>
+                                                    <div class="col-sm-7">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title"><a href="#">5 Healthy Living
+                                                                    Tips
+                                                                    for Young Men
+                                                                    to
+                                                                    Stay
+                                                                    Healthy</a></h5>
+                                                            <span class="author-title"><i class="fa fa-user"></i><a
+                                                                    href="#">Carlous
+                                                                    Lous</a></span>
+                                                            <span class="published-date"><i
+                                                                    class="fa fa-calendar-alt"></i>12.12.2020</span>
+                                                            <p class="card-text">Many people find that by
+                                                                establishing good living
+                                                                habits ...</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                                    role="tab" aria-controls="nav-home" aria-selected="true">Popular</a>
+                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                                    role="tab" aria-controls="nav-profile" aria-selected="false">Recent</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+                                    role="tab" aria-controls="nav-contact" aria-selected="false">Tags</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                aria-labelledby="nav-home-tab">
+                                <div class="card style2">
+                                    <div class="row no-gutters">
+                                        <div class="col-sm-5">
+                                            <div class="img-overlay"></div>
+                                            <img src="../vendor/img/Business/pexels-img12.jpg"
+                                                class="card-img-top h-100" alt="Card image cap">
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="#">5 Healthy Living Tips for Young Men
+                                                        to
+                                                        Stay
+                                                        Healthy</a></h5>
+                                                <span><i class="fa fa-user"></i>Carlous Lous</span>
+                                                <span><i class="fa fa-calendar-alt"></i>12.12.2020</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card style2">
+                                    <div class="row no-gutters">
+                                        <div class="col-sm-5">
+                                            <img src="../vendor/img/Business/pexels-img12.jpg"
+                                                class="card-img-top h-100" alt="Card image cap">
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="#">5 Healthy Living Tips for Young Men
+                                                        to
+                                                        Stay
+                                                        Healthy</a></h5>
+                                                <span><i class="fa fa-user"></i>Carlous Lous</span>
+                                                <span><i class="fa fa-calendar-alt"></i>12.12.2020</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card style2">
+                                    <div class="row no-gutters">
+                                        <div class="col-sm-5">
+                                            <img src="../vendor/img/Business/pexels-img12.jpg"
+                                                class="card-img-top h-100" alt="Card image cap">
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="#">5 Healthy Living Tips for Young Men
+                                                        to
+                                                        Stay
+                                                        Healthy</a></h5>
+                                                <span><i class="fa fa-user"></i>Carlous Lous</span>
+                                                <span><i class="fa fa-calendar-alt"></i>12.12.2020</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                aria-labelledby="nav-profile-tab">
+                                <div class="card style2">
+                                    <div class="row no-gutters">
+                                        <div class="col-sm-5">
+                                            <div class="img-overlay"></div>
+                                            <img src="../vendor/img/Business/pexels-img12.jpg"
+                                                class="card-img-top h-100" alt="Card image cap">
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="#">5 Healthy Living Tips for Young Men
+                                                        to
+                                                        Stay
+                                                        Healthy</a></h5>
+                                                <span><i class="fa fa-user"></i>Carlous Lous</span>
+                                                <span><i class="fa fa-calendar-alt"></i>12.12.2020</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card style2">
+                                    <div class="row no-gutters">
+                                        <div class="col-sm-5">
+                                            <img src="../vendor/img/Business/pexels-img12.jpg"
+                                                class="card-img-top h-100" alt="Card image cap">
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="#">5 Healthy Living Tips for Young Men
+                                                        to
+                                                        Stay
+                                                        Healthy</a></h5>
+                                                <span><i class="fa fa-user"></i>Carlous Lous</span>
+                                                <span><i class="fa fa-calendar-alt"></i>12.12.2020</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card style2">
+                                    <div class="row no-gutters">
+                                        <div class="col-sm-5">
+                                            <img src="../vendor/img/Business/pexels-img12.jpg"
+                                                class="card-img-top h-100" alt="Card image cap">
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="#">5 Healthy Living Tips for Young Men
+                                                        to
+                                                        Stay
+                                                        Healthy</a></h5>
+                                                <span><i class="fa fa-user"></i>Carlous Lous</span>
+                                                <span><i class="fa fa-calendar-alt"></i>12.12.2020</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                aria-labelledby="nav-contact-tab">
+                                <ul>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">History</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <!-- Splide core JavaScript -->
+    <script src="vendor/jcarousel/splide.js"></script>
+    <!-- Pagination core JavaScript -->
+    <script src="vendor/pagination/js/jquery.simplePagination.js"></script>
+    <!-- JQuery core JavaScript -->
+    <script src="vendor/jquery/jquery-ui.js"></script>
+    <!-- Aos Animation core JavaScript -->
+    <script src="vendor/aos animation/js/aos.js"></script>
+    <script src="vendor/css3 animate/js/css3-animate-it.js"></script>
+    <!-- main core JavaScript -->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

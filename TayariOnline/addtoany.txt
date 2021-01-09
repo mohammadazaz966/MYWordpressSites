@@ -1,0 +1,65 @@
+Share Counters
+  
+Individual share counts of the same style can be placed alongside supported AddToAny share buttons.
+
+Note: Facebook no longer provides public API access to share counts, so Facebook counters are not currently displaying. In November, AddToAny will begin rolling out a premium service to manage private API access to Facebook and display Facebook share counters.
+
+Large share counters
+AddToAny offers share counts alongside scalable vector icons (32 x 32 pixels and greater SVG format).
+
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+    <a class="a2a_button_facebook a2a_counter"></a>
+    <a class="a2a_button_pinterest a2a_counter"></a>
+    <a class="a2a_button_tumblr a2a_counter"></a>
+    <a class="a2a_button_reddit a2a_counter"></a>
+    <a class="a2a_dd a2a_counter" href="https://www.addtoany.com/share"></a>
+</div>
+
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+
+====================================================================================================================================
+
+Follow Buttons
+ 
+AddToAny follow buttons link to your social media profiles and enable subscription to your RSS feeds.
+
+Social media links
+Specify the profile ID to follow in a service's data-a2a-follow attribute, as in the following examples.
+
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style a2a_follow">
+    <a class="a2a_button_twitter" data-a2a-follow="AddToAny"></a>
+    <a class="a2a_button_facebook" data-a2a-follow="AddToAny"></a>
+    <a class="a2a_button_instagram" data-a2a-follow="kevin"></a>
+    <a class="a2a_button_pinterest" data-a2a-follow="Pinterest"></a>
+    <a class="a2a_button_linkedin" data-a2a-follow="reidhoffman"></a>
+    <a class="a2a_button_linkedin_company" data-a2a-follow="linkedin"></a>
+    <a class="a2a_button_vimeo" data-a2a-follow="staff"></a>
+    <a class="a2a_button_youtube" data-a2a-follow="YouTube"></a>
+    <a class="a2a_button_youtube_channel" data-a2a-follow="UCF0pVplsI8R5kcAqgtoRqoA"></a>
+    <a class="a2a_button_tumblr" data-a2a-follow="staff"></a>
+    <a class="a2a_button_github" data-a2a-follow="torvalds"></a>
+    <a class="a2a_button_foursquare" data-a2a-follow="dens"></a>
+    <a class="a2a_button_snapchat" data-a2a-follow="teamsnapchat"></a>
+    <a class="a2a_button_medium" data-a2a-follow="ev"></a>
+    <a class="a2a_button_behance" data-a2a-follow="Adobe"></a>
+    <a class="a2a_button_flickr" data-a2a-follow="flickr"></a>
+</div>
+
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+
+
+====================================================================================================================================
+Share Buttons
+
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_email"></a>
+<a class="a2a_button_pinterest"></a>
+<a class="a2a_button_linkedin"></a>
+<a class="a2a_button_tumblr"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
