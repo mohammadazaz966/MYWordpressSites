@@ -1,0 +1,407 @@
+/* -----------
+Media Queries
+--------------*/
+
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    /* styles */
+}
+
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 320px) {
+    /* styles */
+}
+
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px) {
+    /* styles */
+}
+
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Topbar ---------- */
+
+    .col-12 {
+        display: flex;
+    }
+
+    .col-8,
+    .col-4 {
+        max-width: 100%;
+    }
+
+    #topbar ul.topbar-social-media li {
+        margin-bottom: 6px;
+    }
+
+    #topbar ul.topbar-category-list li {
+        margin-bottom: 6px;
+    }
+
+    #topbar ul.topbar-category-list {
+        border-bottom: 2px solid #fe0036;
+    }
+
+    /* Brand ---------- */
+
+    .social-list-top {
+        width: 100%;
+    }
+
+    #topbar ul,
+    #sidebar-wrapper .social-counter ul,
+    #sidebar-wrapper .tags-sidebar .tags-clouds ul {
+        text-align: center;
+    }
+
+    #sidebar-wrapper .social-counter ul {
+        padding: 20px;
+    }
+
+    #top-navigation-menu .navigation-menu,
+    #top-navigation-menu .home-icon {
+        display: none;
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+
+    #newslatest .news-ticker .news-headings h3 {
+        font: 500 18px/18px "Roboto Slab", Verdana, sans-serif;
+        width: 116px;
+    }
+
+    #newslatest .news-ticker .news-headings h3 i {
+        font-size: 15px;
+    }
+
+    #blog-post-widget-1,
+    #blog-post-widget-1 .blog-post-widget-m-2 .blog-post-widget-m-2a,
+    #blog-post-widget-1 .blog-post-widget-m-2 .blog-post-widget-m-2a::before,
+    #blog-post-widget-1 .blog-post-widget-m-2 .blog-post-widget-m-2a img,
+    #blog-post-widget-1 .blog-post-widget-m-2 .blog-post-widget-m-2b,
+    #blog-post-widget-1 .blog-post-widget-m-2 .blog-post-widget-m-2b::before,
+    #blog-post-widget-1 .blog-post-widget-m-2 .blog-post-widget-m-2b img,
+    #blog-carousel .blog-carousel-splide-m-1 .blog-carousel-widget-m-1 .blog-carousel-widget-m-1-body,
+    #main-row .sidebar-wrapper .social-counter,
+    #sidebar-wrapper .newsletter-sidebar,
+    #sidebar-wrapper .sidebar-tabs,
+    #sidebar-wrapper .archives-sidebar,
+    #sidebar-wrapper .sponser-sidebar,
+    #sidebar-wrapper .blog-post-sidebar,
+    #sidebar-wrapper .tags-sidebar,
+    #blog-post-widget-1 .blog-post-widget-m-1,
+    #blog-post-widget-1 .blog-post-widget-m-1::before,
+    #blog-post-widget-1 .blog-post-widget-m-1 img,
+    #blog-post-widget-1 .blog-post-widget-m-2,
+    #blog-post-widget-1 .blog-post-widget-m-2::before,
+    #blog-post-widget-1 .blog-post-widget-m-2 img,
+    #blog-post-widget-1 .blog-post-widget-m-3,
+    #blog-post-widget-1 .blog-post-widget-m-3::before,
+    #blog-post-widget-1 .blog-post-widget-m-3 img,
+    #blog-carousel .blog-carousel-splide-m-1 .blog-carousel-widget-m-1,
+    #blog-carousel .blog-carousel-splide-m-1 .blog-carousel-widget-m-1::before,
+    #blog-carousel .blog-carousel-splide-m-1 .blog-carousel-widget-m-1 img,
+    #main-row #main-wrapper,
+    #main-wrapper .main-blog-post-mb-main,
+    #main-wrapper .main-blog-post-mb-main .main-blog-post-mb-1,
+    #main-wrapper .main-blog-post-mb-main .blog-post-widget-md,
+    #main-wrapper .main-blog-post-mb-main .main-blog-post-mb-2,
+    #main-wrapper .main-blog-post-mb-main .main-blog-post-mb-1 .blog-post-widget-m-3,
+    #main-wrapper .main-blog-post-mb-main .main-blog-post-mb-1 .blog-post-widget-m-3::before,
+    #main-wrapper .main-blog-post-mb-main .main-blog-post-mb-1 .blog-post-widget-m-3 img,
+    #main-wrapper .main-blog-post-mb-main .main-blog-post-mb-2 .blog-post-widget-m-3,
+    #main-wrapper .main-blog-post-mb-main .main-blog-post-mb-2 .blog-post-widget-m-3::before,
+    #main-wrapper .main-blog-post-mb-main .main-blog-post-mb-2 .blog-post-widget-m-3 img,
+    #main-row,
+    #main-row .sidebar-wrapper,
+    #sidebar-wrapper .sidebar-tabs .tab-content .tab-pane .recent-post-sidebar .card .col-sm-5,
+    #sidebar-wrapper .sponser-sidebar .sponser-block,
+    #sidebar-wrapper .blog-post-sidebar .recent-post-sidebar .card .col-sm-5 {
+        width: 100%;
+    }
+
+    #sidebar-wrapper .sponser-sidebar .sponser-block {
+        padding: 0 16px;
+    }
+
+    #sidebar-wrapper .tags-sidebar .tags-clouds li {
+        padding: 8px 26px;
+    }
+
+    #main-row .col-lg-4 {
+        padding-left: 20px !important;
+    }
+
+    #blog-post-widget-1 .blog-post-widget-m-1,
+    #blog-post-widget-1 .blog-post-widget-m-2,
+    #blog-post-widget-1 .blog-post-widget-m-3,
+    #main-wrapper .main-blog-post-mb-main .main-blog-post-mb-1,
+    #main-wrapper .main-blog-post-mb-main .main-blog-post-mb-2 .blog-post-widget-m-3 {
+        margin: 10px 0 10px 0;
+    }
+
+    #sidebar-wrapper .sponser-sidebar .sponser-block img {
+        width: 100%;
+    }
+
+    #main-wrapper .main-blog-post-mb-main .main-blog-post-mb-2 {
+        margin: 0;
+    }
+
+    #main-wrapper .main-blog-post-mb-main,
+    #main-row {
+        display: block;
+    }
+
+    #blog-post-widget-1 .blog-post-widget-m-1 .blog-post-widget-m-1-body h1,
+    #blog-post-widget-1 .blog-post-widget-m-2 .blog-post-widget-m-2a .blog-post-widget-m-2a-body h1,
+    #blog-post-widget-1 .blog-post-widget-m-3 .blog-post-widget-m-3-body h1,
+    #ad-section .ad-heading h1,
+    #main-wrapper .main-blog-post-mb-main .blog-post-widget-md .blog-post-widget-headingtext h1,
+    #main-wrapper .main-blog-post-mb-main .blog-post-widget-m-3 .blog-post-widget-m-3-body h1 {
+        font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+    }
+
+    #blog-post-widget-1 .blog-post-widget-m-1 .blog-post-widget-m-1-body p,
+    #blog-post-widget-1 .blog-post-widget-m-2 .blog-post-widget-m-2a .blog-post-widget-m-2a-body p,
+    #blog-post-widget-1 .blog-post-widget-m-3 .blog-post-widget-m-3-body p,
+    #main-wrapper .main-blog-post-mb-main .blog-post-widget-md .blog-post-widget-m-3-body p,
+    #main-wrapper .main-blog-post-mb-main .blog-post-widget-md .blog-post-widget-m-3-body .btn,
+    #main-wrapper .main-blog-post-mb-main .blog-post-widget-m-3 .blog-post-widget-m-3-body p {
+        font: 500 12px/18px "Roboto Slab", Verdana, sans-serif;
+    }
+
+    #main-wrapper .main-blog-post-mb-main .blog-post-widget-m-3 .blog-post-widget-m-3-body .blog-post-widget-m-1-tags span {
+        font: 500 10px/18px "Roboto Slab", Verdana, sans-serif;
+    }
+
+    #blog-post-widget-1 .blog-post-widget-m-1 .blog-post-widget-m-1-body {
+        bottom: 56%;
+    }
+
+    #blog-post-widget-1 .blog-post-widget-m-1 .blog-post-widget-m-1-body .blog-post-widget-m-1-tags {
+        bottom: 116%;
+    }
+
+    #blog-carousel .blog-carousel-splide-m-1 .blog-carousel-widget-m-1 {
+        margin: 0;
+    }
+
+    #main-wrapper .main-blog-post-mb-main .blog-post-widget-m-3 .blog-post-widget-m-3-body .blog-post-widget-m-1-tags {
+        bottom: 102%;
+    }
+
+    #sidebar-wrapper .sidebar-tabs li a {
+        padding: 12px 20.9px;
+    }
+
+    #sidebar-wrapper .sidebar-tabs .tab-content .tab-pane .recent-post-sidebar .card,
+    #sidebar-wrapper .sidebar-tabs .tab-content .tab-pane .popular-post-sidebar .card,
+    #sidebar-wrapper .sidebar-tabs .tab-content .tab-pane .comments-sidebar .card,
+    #sidebar-wrapper .blog-post-sidebar .recent-post-sidebar .card {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #sidebar-wrapper .sidebar-tabs .tab-content .tab-pane .recent-post-sidebar .card-body,
+    #sidebar-wrapper .sidebar-tabs .tab-content .tab-pane .popular-post-sidebar .card .card-body,
+    #sidebar-wrapper .sidebar-tabs .tab-content .tab-pane .comments-sidebar .card .card-body,
+    #sidebar-wrapper .blog-post-sidebar .recent-post-sidebar .card .card-body {
+        padding: 10px;
+    }
+
+    #sidebar-wrapper .sidebar-tabs .tab-content .tab-pane .comments-sidebar .card .col-sm-5 {
+        transition: all 0.4s ease-in-out;
+        text-align: center;
+        padding-bottom: 24%;
+    }
+
+    #sidebar-wrapper .sidebar-tabs .tab-content .tab-pane .comments-sidebar li .card-img-top {
+        height: 150%;
+        width: 60%;
+    }
+
+    #sidebar-wrapper .archives-sidebar .form-group .form-control {
+        width: 90%;
+    }
+
+    #sidebar-wrapper .archives-sidebar .form-group {
+        padding: 0 20px;
+    }
+}
+
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (max-width: 768px) {
+
+    /* Topbar ---------- */
+
+    .col-8,
+    .col-4 {
+        max-width: 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+
+    #topbar ul.topbar-social-media li {
+        margin-bottom: 6px;
+    }
+
+    #topbar .social-list-top {
+        float: none;
+        text-align: center;
+    }
+
+    #topbar ul.topbar-category-list li {
+        margin-bottom: 6px;
+    }
+
+    #topbar ul.topbar-category-list {
+        border-bottom: 2px solid #fe0036;
+        text-align: center;
+    }
+
+    #top-navigation-menu .home-icon {
+        display: none;
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+
+    /* Top Navbar ---------- */
+
+    .search-open.btn,
+    .search-close.btn {
+        top: 0;
+        padding: 12px 24px;
+    }
+
+    /* Featured blog ---------- */
+
+    .col-6,
+    .col-3 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #blog-post-widget-1 .card img,
+    #blog-carousel .card::before,
+    #blog-carousel .card img {
+        width: 100% !important;
+    }
+
+    #blog-post-widget-1 .card .card-body {
+        top: 40%;
+    }
+
+    #blog-post-widget-1 .card.featured-blog-2,
+    #blog-post-widget-1 .card.featured-blog-3,
+    #blog-post-widget-1 .card {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /*====== Main Blog 1===========*/
+
+    #main-wrapper .main-blog-1 .main-blog-1-post,
+    #main-wrapper .main-blog-2 .main-blog-1-post,
+    #main-wrapper .main-blog-4 .main-blog-1-post,
+    #main-wrapper .main-blog-5 .main-blog-1-post {
+        display: block;
+        position: relative;
+    }
+
+    #main-wrapper .card.featured-blog-6 .card-body .first-block {
+        display: block;
+    }
+
+    #main-wrapper .card.featured-blog-6 .card-body ul.footer-social-sites {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    /*====== Main Blog 2===========*/
+
+    #main-wrapper .card.featured-blog-4 .card-body,
+    #sidebar-wrapper .card.featured-blog-4 .card-body,
+    #footer-section .card.featured-blog-4 .card-body {
+        position: relative;
+    }
+
+    #main-wrapper .card.featured-blog-4 .card-body h1 a {
+        font: 500 18px/18px "Roboto Slab", Verdana, sans-serif;
+    }
+
+    #main-wrapper .card.featured-blog-4 .card-body span,
+    #main-wrapper .card.featured-blog-4 .card-body span a {
+        font: 500 14px/18px "Roboto Slab", Verdana, sans-serif;
+    }
+
+    /*====== Main Blog 2===========*/
+
+    #main-wrapper .card .card-body span,
+    #main-wrapper .card .card-body span a {
+        font: 500 14px/18px "Roboto Slab", Verdana, sans-serif;
+    }
+
+    #main-wrapper .card .card-body p {
+        font: 500 16px/18px "Roboto Slab", Verdana, sans-serif;
+    }
+
+    /*====== Featured Blog Post Section 1===========*/
+
+    #blog-post-widget-1 .card .card-body span,
+    #blog-post-widget-1 .card .card-body span a {
+        font: 500 14px/18px "Roboto Slab", Verdana, sans-serif;
+    }
+
+    #blog-post-widget-1 .card .card-body p {
+        font: 500 16px/18px "Roboto Slab", Verdana, sans-serif;
+    }
+
+    #blog-post-widget-1 .card.featured-blog-2 .card-body {
+        top: 26%;
+    }
+
+    /*====== Global Variables===========*/
+
+    span,
+    span a {
+        font: 500 14px/18px "Roboto Slab", Verdana, sans-serif !important;
+    }
+
+    p {
+        font: 500 16px/18px "Roboto Slab", Verdana, sans-serif !important;
+    }
+
+    h1 a {
+        font: 500 18px/18px "Roboto Slab", Verdana, sans-serif !important;
+    }
+
+}
+
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px) {
+    /* styles */
+}
+
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px) {
+    /* styles */
+}
+
+/* Large screens ---------- */
+@media screen and (min-width: 1824px) {
+    .col-12 {
+        display: flex;
+    }
+}
+
+/* -----------
+  End Media Queries
+  --------------*/

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>FranckMag - Bootstrap Templates</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/solid.css" rel="stylesheet">
+
+    <!-- Splide core CSS -->
+    <link href="vendor/jcarousel/splide.min.css" rel="stylesheet">
+    <!-- Pagination core CSS -->
+    <link rel="stylesheet" href="vendor/pagination/css/simplePagination.css">
+    <!-- JQuery core CSS -->
+    <link rel="stylesheet" href="vendor/jquery/jquery-ui.css">
+    <!-- AOS Animate core JavaScript -->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="vendor/aos animation/css/aos.css">
+    <link rel="stylesheet" href="vendor/css3 animate/css/animations.css">
+
+    <style>
+        #top-navigation-menu {
+            background: #373e59;
+        }
+
+        #top-navigation-menu .nav-menu {
+            z-index: 99999;
+        }
+
+        #top-navigation-menu .home-icon {
+            display: inline-block;
+            background: #fe0036;
+            padding: 15px 20px;
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+        }
+
+        #top-navigation-menu .home-icon a i {
+            font-size: 25px;
+            color: white;
+        }
+
+        .nav-menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin-left: 8px;
+        }
+
+        .nav-menu li {
+            display: inline-block;
+            position: relative;
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+            color: white;
+            padding: 20px;
+            display: block;
+        }
+
+        .nav-menu .dropdown li:hover,
+        .nav-menu li a.active,
+        .nav-menu li:hover {
+            background: #fe0036;
+            cursor: pointer;
+        }
+
+        #top-navigation-menu ul li i {
+            padding: 0 7px;
+            -webkit-transition: 0.4s ease-in-out;
+            transition: 0.4s ease-in-out;
+        }
+
+        #top-navigation-menu ul li:hover>a i {
+            cursor: pointer;
+            -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+
+        .nav-menu li a.active {
+            color: white;
+            cursor: pointer;
+        }
+
+        .nav-menu .dropdown ul {
+            position: absolute;
+            top: 100%;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            background: #383838;
+            z-index: 99;
+            opacity: 0;
+            visibility: hidden;
+            transform: scaleY(0);
+            transform-origin: 0 0 0;
+            transition: all 0.5s ease 0s;
+        }
+
+        .nav-menu .dropdown:hover ul {
+            opacity: 1;
+            top: 100%;
+            visibility: visible;
+            transform: scaleY(1);
+        }
+
+        .nav-menu .dropdown ul li {
+            min-width: 160px;
+            position: relative;
+            clear: both;
+            border-bottom: 1px solid #eaeaea;
+            display: block;
+        }
+
+        .nav-menu .dropdown .dropdown ul {
+            opacity: 0;
+            visibility: hidden;
+            left: 100%;
+            top: 0;
+        }
+
+        .nav-menu .dropdown .dropdown:hover ul {
+            opacity: 1;
+            visibility: visible;
+            left: 100%;
+        }
+
+        #menu-toggle {
+            display: none;
+            padding: 0 20px;
+            background: #FE0036;
+            color: white;
+            font-size: 25px;
+            outline: none;
+            border: 1px solid #fe0036;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Top Navbar Section -->
+    <section id="top-navigation-menu">
+        <div class="container">
+            <div class="row animatedParent animateOnce" data-sequence="200">
+                <button class="menu-toggle" id="menu-toggle" onclick="openNav()"><i class=" fa
+                    fa-bars"></i></button>
+                <div class="home-icon animated bounceInUp" data-id="1">
+                    <a href="#"><i class="fa fa-home"></i></a>
+                </div>
+                <nav class="nav-menu d-none d-lg-block animated bounceInUp" data-id="2">
+                    <ul>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li class="dropdown"><a href="#">Subject<i class="fas fa-caret-down"></i></a>
+                            <ul>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Geography</a></li>
+                                <li><a href="#">Mathematics</a></li>
+                                <li><a href="#">Reasoning</a></li>
+                                <li><a href="#">General Science</a></li>
+                                <li><a href="#">Indian Polity</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!-- End Top Navbar Section -->
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <!-- Splide core JavaScript -->
+    <script src="vendor/jcarousel/splide.js"></script>
+    <!-- Pagination core JavaScript -->
+    <script src="vendor/pagination/js/jquery.simplePagination.js"></script>
+    <!-- JQuery core JavaScript -->
+    <script src="vendor/jquery/jquery-ui.js"></script>
+    <!-- Aos Animation core JavaScript -->
+    <script src="vendor/aos animation/js/aos.js"></script>
+    <script src="vendor/css3 animate/js/css3-animate-it.js"></script>
+    <!-- main core JavaScript -->
+
+    <script>
+        //Highlight the active menu item
+        $('.nav-menu li a').on('click', function () {
+            $('.nav-menu .active').removeClass('active');
+            $(this).toggleClass('active');
+        })
+    </script>
+
+
+</body>
+
+</html>

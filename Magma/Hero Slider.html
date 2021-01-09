@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>FranckMag - Bootstrap Templates</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/solid.css" rel="stylesheet">
+
+    <!-- Splide core CSS -->
+    <link href="vendor/jcarousel/splide.min.css" rel="stylesheet">
+    <!-- Pagination core CSS -->
+    <link rel="stylesheet" href="vendor/pagination/css/simplePagination.css">
+    <!-- JQuery core CSS -->
+    <link rel="stylesheet" href="vendor/jquery/jquery-ui.css">
+	<!-- JQuery core CSS -->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+    <!-- AOS Animate core JavaScript -->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="vendor/aos animation/css/aos.css">
+    <link rel="stylesheet" href="vendor/css3 animate/css/animations.css">
+
+    <style>
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero p {
+    width: 80%;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    color: #fff;
+    font: 500 18px/18px "Roboto Slab", Verdana, sans-serif;
+}
+
+#hero .carousel-inner .carousel-item {
+    transition-property: opacity;
+    background-position: center top;
+}
+
+#hero {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#hero .carousel-item {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#hero .carousel-item::before {
+    content: '';
+    background-color: rgba(13, 30, 45, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#hero .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+#hero .carousel-content {
+    text-align: left;
+    background: rgb(0, 0, 0, 0.5);
+    padding: 30px 20px;
+}
+
+#hero h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    font: 900 48px/18px "Roboto Slab", Verdana, sans-serif;
+    line-height: 3rem;
+}
+
+.my_arrow {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3em;
+    height: 3em;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0;
+    opacity: .7;
+    background: rgba(255, 255, 255, 0.77);
+    transition: all .4s ease-in-out;
+    outline: none;
+}
+
+.my_arrow.my_arrow_prev {
+    left: 1em;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    outline: none;
+    z-index: 2;
+	text-decoration:none;
+}
+
+.my_arrow.my_arrow_prev::after {
+    content: "\f104";
+    font-family: 'Font Awesome 5 Free';
+    color: #373e59;
+    font-size: 25px;
+	transition: all .4s ease-in-out;
+}
+
+.my_arrow.my_arrow_next {
+    right: 1rem;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    outline: none;
+    z-index: 2;
+	text-decoration:none;
+}
+
+.my_arrow.my_arrow_next::after {
+    content: "\f105";
+    font-family: 'Font Awesome 5 Free';
+    color: #373e59;
+    font-size: 25px;
+	transition: all .4s ease-in-out;
+}
+
+.my_arrow.my_arrow_next:hover,
+.my_arrow.my_arrow_prev:hover {
+    background: #373e59;
+	color: white;
+}
+
+.my_arrow.my_arrow_next:hover::after,
+.my_arrow.my_arrow_prev:hover::after {
+    color: white;
+}
+
+svg {
+    display: none;
+}
+    </style>
+
+</head>
+
+<body>
+  
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+    <div class="hero-container owl-carousel owl-theme hero-carousel">
+	
+          <div class="carousel-item" style="background-image: url('vendor/img/Carousel -3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet.</h2>
+                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quidem explicabo similique obcaecati quae? Expedita?</p>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="carousel-item" style="background-image: url('vendor/img/Carousel -3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet.</h2>
+                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quidem explicabo similique obcaecati quae? Expedita?</p>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="carousel-item" style="background-image: url('vendor/img/Carousel -3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet.</h2>
+                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quidem explicabo similique obcaecati quae? Expedita?</p>
+              </div>
+            </div>
+          </div>
+
+    </div>
+</section><!-- End Hero -->
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <!-- Splide core JavaScript -->
+    <script src="vendor/jcarousel/splide.js"></script>
+    <!-- Pagination core JavaScript -->
+    <script src="vendor/pagination/js/jquery.simplePagination.js"></script>
+    <!-- JQuery core JavaScript -->
+    <script src="vendor/jquery/jquery-ui.js"></script>
+    <!-- Aos Animation core JavaScript -->
+    <script src="vendor/aos animation/js/aos.js"></script>
+    <script src="vendor/css3 animate/js/css3-animate-it.js"></script>
+	<script src="vendor/owl.carousel/owl.carousel.js"></script>
+    <!-- main core JavaScript -->
+
+    <script>
+    $("#hero .hero-carousel").owlCarousel({
+        // Most important owl features
+        items: 1,
+        itemsDesktop: [1199, 1],
+        itemsDesktopSmall: [980, 1],
+        itemsTablet: [768, 1],
+        itemsTabletSmall: false,
+        itemsMobile: [479, 1],
+
+        //Basic Speeds
+        slideSpeed: 200,
+        paginationSpeed: 800,
+        rewindSpeed: 1000,
+
+        //Autoplay
+        autoPlay: true,
+        stopOnHover: true,
+
+        // Navigation
+        navigation: true,
+        rewindNav: true,
+
+        //Pagination
+        pagination: true,
+        paginationNumbers: false,
+
+        // Responsive 
+        responsive: true,
+        responsiveRefreshRate: 200,
+        responsiveBaseWidth: window,
+
+        // CSS Styles
+        baseClass: "owl-carousel",
+        theme: "owl-theme",
+    });
+
+    </script>
+
+
+</body>
+
+</html>
