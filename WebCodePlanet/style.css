@@ -1,0 +1,2227 @@
+.mainbody {
+    margin: 0 auto;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+body {
+    font-family: "Roboto Slab", Verdana, sans-serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+i {
+    color: white;
+}
+
+.h1,
+h1 {
+    font-size: 15px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+/*========== TopBar ================*/
+
+#topbar,
+#topbar .container {
+    background-color: #616161;
+}
+
+#topbar .topbar-left-block {
+    display: flex;
+    position: relative;
+}
+
+#topbar .social-sharing {
+    background-color: #2a2a2a;
+    padding: 0 0 0 14px;
+}
+
+#topbar .social-sharing ul {
+    padding: 5px 5px;
+    margin: 0;
+    list-style: none;
+}
+
+#topbar .social-sharing ul .a2a_default_style {
+    display: flex;
+    position: relative;
+}
+
+#topbar .social-sharing ul .a2a_default_style a {
+    background: none !important;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#topbar .social-sharing ul .a2a_default_style a i {
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#topbar .social-sharing ul .a2a_default_style a:hover i {
+    color: #ff4500;
+}
+
+#topbar .social-sharing ul li {
+    display: table-cell;
+    padding: 4px 10px;
+}
+
+#topbar .social-sharing ul li:hover>a i {
+    color: #ff4500;
+}
+
+#topbar .social-sharing ul li a {
+    text-decoration: none;
+}
+
+#topbar .social-sharing ul li a i {
+    color: white;
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#topbar .news-ticker {
+    display: flex;
+    position: relative;
+}
+
+#topbar .news-ticker h3 {
+    font: bold 12px/18px "Roboto Slab", Verdana, sans-serif;
+    text-transform: uppercase;
+    background: #ff4500;
+    color: white;
+    padding: 12px 35px;
+    margin: 0;
+}
+
+#topbar .news-ticker marquee {
+    padding: 9px 25px;
+}
+
+#topbar .news-ticker marquee a {
+    text-decoration: none;
+    font: 500 12px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #fff;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#topbar .news-ticker marquee a:hover {
+    color: #ff4500;
+}
+
+#topbar .topbar-right-block {
+    padding: 5px 12px;
+    background: #2a2a2a;
+    display: flex;
+    position: relative;
+}
+
+#topbar .top-category-list {
+    background-color: #2a2a2a;
+    width: 70%;
+    border-right: 1px #ccc solid;
+}
+
+#topbar .top-category-list ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#topbar .top-category-list ul li {
+    display: inline-block;
+    padding: 4px 6px;
+}
+
+#topbar .top-category-list ul li:hover>a {
+    color: #ff4500;
+}
+
+#topbar .top-category-list ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto Slab", Verdana, sans-serif;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#topbar .top-todays-date {
+    width: 33%;
+    text-align: center;
+    margin: 4px 0;
+}
+
+#topbar .top-todays-date span {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto Slab", Verdana, sans-serif;
+}
+
+/*========== End TopBar ============*/
+
+/*========== Brand ============*/
+
+#brand .container,
+#brand .col-12 {
+    background: #f5f5f5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#brand .site-logo {
+    padding: 28px;
+}
+
+#brand .site-logo h3.site-title a {
+    text-decoration: none;
+    font: 500 38px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #ff4500;
+}
+
+#brand .site-logo span.site-sub-title {
+    font: 900 13px/18px "Roboto Slab", Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #211f2e;
+    padding-left: 29%;
+}
+
+#brand .site-ad {
+    padding: 47.7px;
+}
+
+#brand .site-ad h3 {
+    font: 900 33px/18px "Roboto Slab", Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #2a2a2a;
+    text-align: center;
+}
+
+/*========== End Brand ============*/
+
+/* =============== Top Navbar ==================*/
+
+#topnavbar .container,
+#topnavbar .col-12 {
+    background: #2e2f29;
+}
+
+#topnavbar nav {
+    z-index: 99999;
+    display: inline-flex;
+}
+
+#topnavbar .home-icon {
+    display: inline-block;
+    background: #ff4500;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    display: inline-flex;
+}
+
+#topnavbar .home-icon a {
+    padding: 13px 20px 19px 20px;
+}
+
+#topnavbar .home-icon a i {
+    font-size: 25px;
+    color: white;
+}
+
+#topnavbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
+}
+
+#topnavbar nav li {
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#topnavbar nav a {
+    text-decoration: none;
+    color: white;
+    padding: 21px 20px 21px 20px;
+    display: block;
+    font: 500 14px/18px "Roboto Slab", Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#topnavbar nav ul li:hover,
+#topnavbar nav li.active {
+    background: #ff4500;
+    cursor: pointer;
+}
+
+#topnavbar ul li i {
+    padding: 0 7px;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+#topnavbar ul li:hover>a i {
+    cursor: pointer;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#topnavbar nav ul ul {
+    position: absolute;
+    top: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background: #2e2f29;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: 0 0 0;
+    transition: all 0.5s ease 0s;
+    min-width: 220px;
+    margin: 0;
+    padding: 7px;
+    border: none;
+    border-top: 1px solid transparent;
+    border-radius: 0;
+}
+
+#topnavbar nav ul li.menu-item-has-children>a::after {
+    display: inline-block;
+    padding: 0 7px;
+    font-family: "Font Awesome 5 Free";
+    content: "\f0d7";
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+#topnavbar nav ul li.menu-item-has-children:hover>a::after {
+    cursor: pointer;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#topnavbar nav ul li:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+#topnavbar nav ul ul li {
+    position: relative;
+    clear: both;
+    border-bottom: 1px solid #eaeaea;
+    display: block;
+}
+
+#topnavbar nav ul ul li a {
+    padding: 8px 15px !important;
+    background: none !important;
+    color: white !important;
+    font-size: 14px;
+}
+
+#topnavbar nav ul ul ul {
+    opacity: 0;
+    visibility: hidden;
+    left: 100%;
+    top: 0;
+}
+
+#topnavbar nav ul ul li:hover ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+#menu-toggle {
+    display: none;
+    padding: 0 20px;
+    background: #ff4500;
+    color: white;
+    font-size: 25px;
+    outline: none;
+    border: 1px solid #ff4500;
+}
+
+/* =============== End Top Navbar ==================*/
+
+/* -----------
+Top Navbar Search Section
+--------------*/
+
+.topbar-search-form {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    right: 0;
+    display: none;
+    z-index: 999999;
+}
+
+.topbar-search-form form {
+    background: #353535;
+}
+
+.topbar-search-form label,
+.topbar-search-form input[type="text"],
+.topbar-search-form input[type="submit"] {
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+}
+
+.topbar-search-form input[type="text"] {
+    color: black;
+}
+
+.topbar-search-form input[type="text"] {
+    margin: 0 10px;
+    width: 95%;
+}
+
+.topbar-search-form input[type="submit"] {
+    margin: 10px;
+    width: 95%;
+}
+
+.search-open.btn,
+.search-close.btn {
+    position: absolute;
+    right: 0;
+    margin: 8px;
+}
+
+.search-close {
+    display: none;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    margin: 8px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.search-close.btn,
+.search-open.btn,
+input[type="submit"] {
+    color: #fff;
+    background-color: #ff4500;
+    border-color: #ff4500;
+}
+
+/* =============== Side Navbar ==================*/
+
+#sidenavbar  {
+    padding-left: 0px;
+}
+
+#sidenavbar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    background-color: #2e2f29;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    left: -300px;
+}
+
+#sidenavbar.active {
+    left: 0px;
+}
+
+#sidenavbar nav ul li a {
+    padding: 8px 12px;
+    text-decoration: none;
+    font: 500 14px/18px "Roboto Slab", Verdana, sans-serif;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+#sidenavbar nav ul li a:hover,
+.offcanvas a:focus {
+    color: #f1f1f1;
+    background-color: #ff4500;
+}
+
+#sidenavbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#sidenavbar .col-9 {
+    max-width: 100%;
+}
+
+#sidenavbar nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#sidenavbar nav ul li {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    left: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#sidenavbar nav ul li a {
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#sidenavbar nav ul li a i {
+    padding: 0 7px;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+#sidenavbar nav ul li:hover,
+#sidenavbar nav ul li.active {
+    background-color: #ff4500;
+}
+
+#sidenavbar nav ul li:hover>a {
+    color: #f1f1f1;
+}
+
+#sidenavbar nav ul li.menu-item-has-children>a::after,
+#sidenavbar nav ul ul li.menu-item-has-children>a::after {
+    display: inline-block;
+    padding: 0 7px;
+    font-family: "Font Awesome 5 Free";
+    content: "\f0d7";
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+#sidenavbar nav ul li.menu-item-has-children:hover>a::after,
+#sidenavbar nav ul ul li.menu-item-has-children:hover>a::after {
+    cursor: pointer;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#sidenavbar nav ul ul {
+    display: none;
+    position: relative;
+    background-color: #2e2f29;
+}
+
+#sidenavbar nav ul ul.visible {
+    display: block;
+}
+
+#sidenavbar nav ul ul li {
+    cursor: pointer;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#sidenavbar nav ul ul a {
+    color: white;
+    min-width: 160px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#sidenavbar .menu-toggle-close {
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom: 100%;
+    padding: 0 9px;
+    background: #ff4500;
+    color: white;
+    font-size: 25px;
+    outline: none;
+    border: 1px solid #ff4500;
+    border-radius: 0.25rem;
+}
+
+#sidenavbar .menu-toggle-close i {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#sidenavbar nav {
+    margin-top: 20px;
+}
+
+#sidenavbar .social-links {
+    display: inline-flex;
+    position: bottom center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+#sidenavbar .social-links i {
+    color: white;
+}
+
+#sidenavbar .social-links a {
+    background-color: #494949;
+}
+
+#sidenavbar .social-links a:hover>i {
+    color: #ff4500;
+}
+
+#sidenavbar .col-lg.social-list-side {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+}
+
+#sidenavbar .social-list-sidebar {
+    margin: 20px 0;
+}
+
+#sidenavbar .social-list-sidebar li {
+    display: inline-block;
+    margin-bottom: 6px;
+    background: #383838;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    border-radius: 2px;
+    margin-right: 6px;
+    width: 54px;
+    height: 50px;
+}
+
+#sidenavbar .social-list-sidebar li a {
+    line-height: 31px;
+    text-align: center;
+}
+
+#sidenavbar .social-list-sidebar li a i {
+    font-size: 20px;
+}
+
+/* =============== End Side Navbar ==================*/
+
+/* =============== Main Blog Card ==================*/
+
+#main-wrapper .row {
+    margin: 40px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*============= Featured Post 6 ============*/
+
+.card.featured-blog-1 {
+    background-clip: border-box;
+    border: solid #f1f1f1f1;
+    border-width: 0.2rem;
+    margin: 10px;
+    position: relative;
+    display: block;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.card.featured-blog-1::before {
+    content: none;
+}
+
+.card.featured-blog-1 h1 {
+    font: 500 18px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #353535;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    transition: all 0.4s ease-in-out;
+    line-height: 1.5rem;
+}
+
+.card.featured-blog-1 h1 a {
+    text-decoration: none;
+    color: #353535;
+    transition: all 0.4s ease-in-out;
+    text-transform: capitalize;
+}
+
+.card.featured-blog-1 h1:hover a {
+    color: #ff4500;
+}
+
+.card.featured-blog-1 .card-body {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.card.featured-blog-1 .card-body .col-5 {
+    overflow: hidden;
+    padding: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.card.featured-blog-1 .card-body .col-5 img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+        0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card.featured-blog-1 .card-body .col-5:hover img {
+    transform: scale(1.12);
+}
+
+.card.featured-blog-1 .card-body .col-5:hover::before {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card.featured-blog-1 .card-body .col-5::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all 0.4s ease-in-out;
+}
+
+.card.featured-blog-1 .card-body .card-body-tags {
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 5px 0;
+}
+
+/*========================*/
+.card.featured-blog-1 .card-body-tags {
+    border-top: 1px solid #ff4500;
+    border-bottom: 1px solid #ff4500;
+    padding: 5px 0;
+	margin-bottom: 10px;
+}
+
+.card.featured-blog-1 .card-body-tags span {
+    font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+    margin-right: 16px;
+	margin-left: 16px;
+    padding: 6px 0;
+    background: none;
+    color: #919191 !important;
+	text-transform:capitalize;
+}
+
+.card.featured-blog-1 .card-body-tags span i {
+    margin-right: 6px;
+    color: #919191 !important;
+}
+
+.card.featured-blog-1 .card-body-tags span a,
+.card.featured-blog-1 .card-body-tags a {
+    text-decoration: none;
+    color: #919191 !important;
+}
+
+.card.featured-blog-1 span.category{
+	position: absolute;
+    padding: 6px !important;
+    top: 0;
+    left: 0;
+    background: #ff4500 !important;
+	z-index:4;
+}
+
+.card.featured-blog-1 span.category a,
+.card.featured-blog-1 span.category a i{
+	color:white !important;
+}
+
+/*==================*/
+
+.card.featured-blog-1 .card-body span {
+    font: 500 10px/18px "Roboto Slab", Verdana, sans-serif;
+    margin-right: 6px;
+    padding: 6px 0;
+    background: none;
+    color: #919191 !important;
+}
+
+.card.featured-blog-1 .card-body span i {
+    margin-right: 6px;
+    color: #919191 !important;
+}
+
+.card.featured-blog-1 .card-body span a,
+.card.featured-blog-1 .card-body a {
+    text-decoration: none;
+    color: #919191 ;
+}
+
+.card.featured-blog-1 .card-body p {
+    font: 500 14px/18px "Roboto Slab", Verdana, sans-serif;
+    padding: 6px 0 0 0;
+    color: #919191;
+}
+
+.card.featured-blog-1 .card-body a.btn,
+button.btn {
+    text-decoration: none;
+    background-color: #ff4500;
+    font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+    color: white !important;
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.card.featured-blog-1 .card-body a.btn:hover {
+    background: #373e59;
+}
+
+.card.featured-blog-1 .card-body ul.footer-social-sites li {
+    display: inline-block;
+    position: relative;
+    margin-right: 4px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    font-weight: 400;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.card.featured-blog-1 .card-body ul.footer-social-sites {
+    position: absolute;
+    right: 0;
+}
+
+.card.featured-blog-1 .card-body ul.footer-social-sites li i {
+    color: white;
+}
+
+.card.featured-blog-1 .card-body .first-block {
+    display: flex;
+}
+
+
+/*============ Custom Post Pagination ===============*/
+
+.navigation.pagination {
+    padding: 20px 20px 15px 20px;
+    background: #444;
+    border: 1px solid #333;
+    border-radius: 2px;
+    margin: 10px 0 20px 0;
+    margin-bottom: 20px;
+    justify-content: center;
+	width: 100%;
+}
+
+h2.screen-reader-text {
+    display: none;
+}
+
+.navigation.pagination a,
+.navigation.pagination span {
+    float: left;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    text-align: center;
+    border: 1px solid #222;
+    min-width: 14px;
+    padding: 0 7px;
+    margin: 0 5px 0 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background: #555;
+    background: -moz-linear-gradient(top, #555 0%, #333 100%);
+    background: -webkit-gradient(linear,
+            left top,
+            left bottom,
+            color-stop(0%, #555),
+            color-stop(100%, #333));
+    background: -webkit-linear-gradient(top, #555 0%, #333 100%);
+    background: -o-linear-gradient(top, #555 0%, #333 100%);
+    background: -ms-linear-gradient(top, #555 0%, #333 100%);
+    background: linear-gradient(top, #555 0%, #333 100%);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation.pagination .current {
+    background: #222;
+    color: #fff;
+    border-color: #000;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2),
+        0 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+    cursor: default;
+    height: 26px;
+    line-height: 26px !important;
+}
+
+/* =============== End Main Blog Card ==================*/
+
+/* =============== Sidebar ==================*/
+
+/* =============== Social Sites ==================*/
+
+.header-blogpost5-title {
+    padding: 0.5rem;
+    border-bottom: 4px solid #ff4500;
+    margin: 15px 0;
+}
+
+.side-social-sites ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.side-social-sites ul li {
+    display: inline-block;
+    position: relative;
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+.side-social-sites ul li:hover {
+    transform: rotate(360deg);
+}
+
+/* ----------- Category Section --------------*/
+
+.category-list-sidebar ul {
+    margin: 0;
+    padding: 0 00px 20px 00px;
+    list-style: none;
+}
+
+.category-list-sidebar li {
+    position: relative;
+    display: block;
+    padding: 5px 0;
+    margin-bottom: -1px;
+    background-color: #fff;
+}
+
+.category-list-sidebar li a {
+    color: #181818;
+    line-height: 2.2;
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    padding: 10px 0;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(243, 243, 243);
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+}
+
+.category-list-sidebar li a::before {
+    display: block;
+    width: 100%;
+    content: "";
+    border-bottom: 1px solid #ff4500;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: 300ms ease border-color, 300ms ease background,
+        300ms ease transform;
+    -moz-transition: 300ms ease border-color, 300ms ease background,
+        300ms ease transform;
+    transition: 300ms ease border-color, 300ms ease background,
+        300ms ease transform;
+}
+
+.category-list-sidebar li span {
+    font-size: 0.846em;
+    display: block;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transition: 300ms ease box-shadow, 300ms ease color;
+    -moz-transition: 300ms ease box-shadow, 300ms ease color;
+    transition: 300ms ease box-shadow, 300ms ease color;
+    -webkit-box-shadow: 0 0 0 1px #ff4500 inset;
+    box-shadow: 0 0 0 1px #ff4500 inset;
+    color: #ff4500;
+    margin-top: -11.5px;
+}
+
+.category-list-sidebar li a:hover {
+    padding-left: 12px;
+    color: #ff4500;
+    border-bottom: 1px solid #ff4500;
+}
+
+.category-list-sidebar li a:hover:before {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition: 300ms ease all;
+    -moz-transition: 300ms ease all;
+    transition: 300ms ease all;
+}
+
+/* ----------- End Category Section --------------*/
+
+/* =================== Tags Cloud Sidebar ===================*/
+
+.tags-sidebar .tags-clouds {
+    padding: 10px 20px;
+}
+
+a.tag-cloud-link {
+    font: 500 14px/18px "Roboto Slab", Verdana, sans-serif !important;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background: #2e2f29;
+    padding: 8px 16px;
+    margin: 6px;
+    transition: all 0.4s ease-in-out;
+}
+
+a.tag-cloud-link:hover {
+    background: #ff4500;
+    color: white;
+}
+
+/* =================== End Tags Cloud Sidebar ===================*/
+
+/*============== Page Content ===============*/
+
+.page {
+    border: 1px solid #ccc;
+    background: white;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.page-title {
+    border: 1px solid #ccc;
+    background: #eaeaea;
+    padding: 10px;
+}
+
+.page-title .title {
+    color: #000;
+    text-align: center;
+    font: 700 15px/18px "Roboto Slab", Verdana, sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    line-height: 1.6;
+    border-bottom: 2px solid #ccc;
+}
+
+.page-title ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.page-title li {
+    display: inline-block;
+    padding: 6px;
+    cursor: pointer;
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.page-title li a {
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+.page-title li a i {
+    padding-right: 6px;
+    color: black;
+}
+
+.page-content .card .card-body p {
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #000;
+    line-height: 1.5rem;
+}
+
+.page-content .card-body{
+	overflow:hidden;
+}
+
+.page-content .card-body img {
+    width: 100%;
+	height: 100%;
+}
+
+.page-content .card {
+    border: none;
+    margin-top: 40px;
+}
+
+.page-content .card .card-img-top {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.page-content .card .card-footer h5,
+.page-content .social-counter h5 {
+    font: 600 15px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #000;
+}
+
+.page-content .card .card-footer {
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    background: #eaeaea;
+    margin-bottom: 10px;
+}
+
+.page-content .card .card-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.page-content .card .card-footer li {
+    display: inline-block;
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.page-content .card .card-footer li a {
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #000;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.page-content .card .card-footer li:hover {
+    background: #ff4500;
+}
+
+.page-content .card .card-footer li:hover a {
+    color: white;
+}
+
+.page-content .card .card-footer ul.social-sites li {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.page-content .card .card-footer ul.social-sites li i {
+    font-size: 18px;
+    color: white;
+}
+
+.page-content .card .card-footer ul.social-sites li:hover {
+    border-radius: 50%;
+}
+
+/*============== Page Blog Post 1-2===============*/
+
+.page-content .card.featured-blog-2 {
+    overflow: hidden;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.page-content .card.featured-blog-2::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all 0.4s ease-in-out;
+}
+
+.page-content .card.featured-blog-2 img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+}
+
+.page-content .card.featured-blog-2:hover img {
+    transform: scale(1.12);
+}
+
+.page-content .card.featured-blog-2 .card-body {
+    z-index: 3;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    top: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.25rem;
+}
+
+.page-content .card.featured-blog-2 .card-body .card-body-tags {
+    z-index: 3;
+}
+
+.page-content .card.featured-blog-2 .card-body .card-body-tags span {
+    background: #ff4500;
+    padding: 6px;
+    border-radius: 3px;
+    color: white;
+    font: 500 12px/18px "Roboto Slab", Verdana, sans-serif;
+}
+
+.page-content .card.featured-blog-2 .card-body .card-body-tags span a {
+    text-decoration: none;
+    color: white;
+    font: 500 12px/18px "Roboto Slab", Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.page-content .card.featured-blog-2 .card-body .card-body-tags span a i,
+.page-content .card.featured-blog-2 .card-body .card-body-tags span i {
+    color: white;
+}
+
+.page-content .card.featured-blog-2 .card-body h1 {
+    cursor: pointer;
+    line-height: 1.5rem;
+}
+
+.page-content .card.featured-blog-2 .card-body h1 a {
+    font: 500 22px/18px "Roboto Slab", Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.4s ease-in-out;
+}
+
+.page-content .card.featured-blog-2 .card-body h1:hover a {
+    color: #ff4500;
+}
+
+.page-content .card.featured-blog-2 .card-body span,
+.page-content .card.featured-blog-2 .card-body span a {
+    font: 500 12px/18px "Roboto Slab", Verdana, sans-serif;
+    margin-right: 6px;
+    padding: 6px 0;
+    color: #ccc;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.4s ease-in-out;
+}
+
+.page-content .card.featured-blog-2 .card-body span i {
+    margin-right: 6px;
+    color: #ccc;
+}
+
+.page-content .card.featured-blog-2 .card-body p {
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+    padding: 6px 0 0 0;
+    color: #ccc;
+}
+
+.page-content .splide ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*=========== Page Navigation =============== */
+
+span.meta-nav {
+    font-family: "Font Awesome 5 Free";
+    color: #181818;
+}
+
+span.meta-next,
+span.meta-prev {
+    font: 600 16px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #181818;
+    margin-left: 6px;
+}
+
+#cooler-nav {
+    margin-top: 30px;
+}
+
+#cooler-nav a p {
+    font: 600 13px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #181818;
+    margin-left: 6px;
+}
+
+#cooler-nav a .img-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100px;
+    height: 100px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#cooler-nav a {
+    overflow: hidden;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+#cooler-nav a img {
+    border: 2px solid black;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#cooler-nav a:hover img {
+    border: 2px solid #fff;
+}
+
+#cooler-nav {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#cooler-nav .nav-box {
+    /* background: #e9e9e9; */
+    padding: 10px;
+    overflow: hidden;
+}
+
+#cooler-nav p {
+    margin: 0 10px;
+    font-size: 12px;
+    vertical-align: middle;
+    transition: all 0.4s ease-in-out;
+}
+
+#cooler-nav a:hover p {
+    color: #ff4500;
+}
+
+#cooler-nav .previous {
+    float: left;
+    vertical-align: middle;
+    width: 45%;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+#cooler-nav .next {
+    float: right;
+    vertical-align: middle;
+    width: 45%;
+    margin: 0 10px;
+}
+
+/*============== About Us ====================*/
+
+.author,
+.author-content {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.author .author-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.author .author-img img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.author .author-info,
+.author-content {
+    padding: 25px 15px;
+}
+
+.author .author-img .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+}
+
+.author:hover .social {
+    opacity: 1;
+    bottom: 15px;
+}
+
+.author .author-img .social a {
+    transition: color 0.3s;
+    color: #151515;
+    margin: 0 3px;
+    padding-top: 7px;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    background: rgb(55, 62, 89, 0.8);
+    display: inline-block;
+    transition: ease-in-out 0.3s;
+    color: #ffc451;
+}
+
+.author .author-img .social a i {
+    font-size: 18px;
+}
+
+.author .social a:hover {
+    color: #fff;
+    background: #ffc451;
+}
+
+.first-block.col-md-4 {
+    display: inline-block;
+    position: relative;
+    max-width: 33%;
+    margin-bottom: 10px;
+}
+
+#headerblogpost6 .row {
+    justify-content: center;
+}
+
+.pagination-container {
+    padding: 20px 20px 15px 20px !important;
+    background: #444;
+    border: 1px solid #333;
+    border-radius: 2px;
+    margin-bottom: 20px !important;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #222;
+}
+
+.author-blogpost-list-item .card span.category {
+    position: absolute;
+    background: #444;
+    padding: 6px;
+}
+
+.author-blogpost-list-item .card span.category,
+.author-blogpost-list-item .card span.category a,
+.author-blogpost-list-item .card span.published-date,
+.author-blogpost-list-item .card h5,
+.author-blogpost-list-item .card h5 a,
+.author-blogpost-list-item .card p,
+.author-blogpost-list-item .card span.author-title,
+.author-blogpost-list-item .card span.author-title a,
+.author-blogpost-list-item .card span.author-comments {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+    transition: all 0.4s ease-in-out;
+}
+
+.author-blogpost-list-item .card span.author-title {
+    margin-right: 10px;
+}
+
+.author-blogpost-list-item .card h5 a {
+    color: #444;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.author-blogpost-list-item .card p {
+    color: #777575;
+}
+
+.author-blogpost-list-item .card span.category:hover {
+    background: #ff4500;
+}
+
+.author-blogpost-list-item .card span.category:hover a {
+    color: white;
+}
+
+.author-blogpost-list-item .card h5:hover a {
+    color: #ff4500;
+}
+
+.author-blogpost-list-item .card span.published-date {
+    position: absolute;
+    background: #444;
+    padding: 12px;
+    border-radius: 50%;
+    display: grid;
+    text-align: center;
+    right: 2%;
+    top: 2%;
+}
+
+.author-blogpost-list-item .card span.published-date i {
+    font-size: 20px;
+}
+
+.author-blogpost-list-item .card span i {
+    margin-right: 6px;
+}
+
+.author-blogpost-list-item .card .card-footer {
+    background-color: #444;
+    text-align: center;
+}
+
+/*============== Contact Us ====================*/
+
+.contact {
+    margin: 40px 0;
+}
+
+.contact-address {
+    display: flex;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.contact .info-box {
+    color: #444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px 0 30px 0;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.contact .info-box i {
+    font-size: 32px;
+    color: #373e59;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #373e59;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact .info-box:hover i {
+    color: #ff4500;
+    border: 2px dotted #ff4500;
+}
+
+.contact .info-box h3 {
+    font-size: 20px;
+    color: #666;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.contact .php-email-form {
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 30px;
+}
+
+.contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+    margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.contact .php-email-form input::focus,
+.contact .php-email-form textarea::focus {
+    background-color: #428bca;
+}
+
+.contact .php-email-form input {
+    padding: 10px 15px;
+}
+
+.contact .php-email-form textarea {
+    padding: 12px 15px;
+}
+
+.contact .php-email-form button[type="submit"] {
+    background: #ff4500;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+    background: #373e59;
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*============= Arrows ============*/
+
+.my_arrow {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3em;
+    height: 3em;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0;
+    opacity: 0.7;
+    background: rgba(255, 255, 255, 0.77);
+    transition: all 0.4s ease-in-out;
+    outline: none;
+}
+
+.my_arrow.my_arrow_prev {
+    left: 1em;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    outline: none;
+    z-index: 2;
+    text-decoration: none;
+}
+
+.my_arrow.my_arrow_prev::after {
+    content: "\f104";
+    font-family: "Font Awesome 5 Free";
+    color: #373e59;
+    font-size: 25px;
+    transition: all 0.4s ease-in-out;
+}
+
+.my_arrow.my_arrow_next {
+    right: 1rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    outline: none;
+    z-index: 2;
+    text-decoration: none;
+}
+
+.my_arrow.my_arrow_next::after {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    color: #373e59;
+    font-size: 25px;
+    transition: all 0.4s ease-in-out;
+}
+
+.my_arrow.my_arrow_next:hover,
+.my_arrow.my_arrow_prev:hover {
+    background: #373e59;
+    color: white;
+}
+
+.my_arrow.my_arrow_next:hover::after,
+.my_arrow.my_arrow_prev:hover::after {
+    color: white;
+}
+
+svg {
+    display: none;
+}
+
+/* =================== Footer ===================*/
+
+#footersection,
+#footersection .col-12 {
+    background: #181818;
+}
+
+#footersection .col-12 {
+    display: flex;
+    padding-bottom: 40px !important;
+}
+
+#footersection .header-blogpost5-title h3 {
+    font: 600 25px/18px "Roboto Slab", Verdana, sans-serif;
+    padding: 10px 10px 15px 0;
+    text-align: left;
+    z-index: 1;
+    text-transform: uppercase;
+    color: white;
+}
+
+#footersection p {
+    font: 500 14px/18px "Roboto Slab", Verdana, sans-serif;
+    color: white;
+    margin-bottom: 40px;
+	padding: 0.5rem;
+}
+
+.side-social-sites,
+#footersection form{
+	padding: 0.5rem;
+}
+
+#footersection .header-blogpost5-title span {
+    margin: auto 0 8px 0;
+    padding: 6px;
+    border-bottom: 2px solid #ff4500;
+    z-index: 1;
+}
+
+#footersection .header-blogpost5-title span a {
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+    text-decoration: none;
+    padding: 6px;
+    color: #5b5b5b;
+    transition: all 0.4s ease-in-out;
+}
+
+#footersection .header-blogpost5-title span:hover>a {
+    color: #ff4500;
+}
+
+#footersection ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#footersection ul li {
+	margin-bottom: 6px;
+    display: inline-block;
+    position: relative;
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+#footersection ul li a {
+    color: white;
+}
+
+#footersection ul li:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
+    opacity: 0.9;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+#footersection .card.style2 {
+    margin-bottom: 10px;
+    background: #181818;
+    border: 1px solid #373e59;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#footersection .card.style2 .col-sm-5 {
+    overflow: hidden;
+}
+
+#footersection .card.style2 .card-img-top {
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 100%;
+}
+
+#footersection .card.style2 .img-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#footersection .card.style2:hover .card-img-top {
+    border: 2px solid #ff4500;
+}
+
+#footersection .card.style2 .card-body {
+    padding: 6px 8px;
+}
+
+#footersection .card.style2 .card-body .card-title {
+    margin-bottom: 6px;
+}
+
+#footersection .card.style2 .card-body .card-title a {
+    text-decoration: none;
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    padding: 0;
+}
+
+#footersection .card.style2 .card-body span {
+    font: 500 11px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #ccc;
+}
+
+#footersection .card.style2 .card-body span i {
+    font-size: 10px;
+    margin-right: 6px;
+}
+
+#footersection .card.style2 .card-body .card-text {
+    font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+
+#footersection .card.style2 .card-body .card-title:hover>a {
+    color: #ff4500;
+}
+
+#footersection .card.style2 .card-body span.author-title a {
+    font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #ccc;
+    text-decoration: none;
+}
+
+#footersection .card.style2 .card-body span.published-date {
+    font: 500 11px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #ccc;
+}
+
+#footersection .card.style2 .card-body span.category {
+    position: absolute;
+    top: 6%;
+    z-index: 2;
+}
+
+#footersection .card.style2 .card-body span.category a {
+    font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    background: #ff4500;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+#copyrightsection,
+#copyrightsection .col-12 {
+    background: #0c0c0c;
+}
+
+#copyrightsection .copyright {
+    font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 20px 0;
+}
+
+#copyrightsection .copyright a {
+    font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #ff4500;
+    text-decoration: none;
+}
+
+#copyrightsection .col-12 {
+    display: flex;
+}
+
+#copyrightsection ul {
+    padding: 11px 0;
+    margin: 0;
+    list-style: none;
+}
+
+#copyrightsection ul li {
+    display: inline-block;
+    position: relative;
+    padding: 6px 12px;
+    background: #181818;
+    float: right;
+    margin-right: 8px;
+    transition: all 0.4s ease-in-out;
+}
+
+#copyrightsection ul li a {
+    font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#copyrightsection ul li:hover {
+    background: #ff4500;
+}
+
+#copyrightsection ul li:hover>a {
+    color: white;
+}
+
+#footersection form button[type="submit"] {
+    background: #ff4500;
+    color: white;
+    font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    text-decoration: none;
+    margin-bottom: 6px;
+}
+
+#footersection form button[type="submit"] {
+    width: 100%;
+    background: #ff4500;
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    right: 15px;
+    bottom: 15px;
+    background: #ff4500;
+    color: #fff;
+    transition: display 0.5s ease-in-out;
+    z-index: 99999;
+}
+
+.back-to-top i {
+    font-size: 24px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.back-to-top:hover {
+    color: #fff;
+    background: #373e59;
+    transition: background 0.2s ease-in-out;
+}
+
+/*--------------------------------------------------------------
+  # End Back to top button
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+}
+
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #ff4500;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* =================== End Footer ===================*/
