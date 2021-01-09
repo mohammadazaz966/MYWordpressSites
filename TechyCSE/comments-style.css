@@ -1,0 +1,251 @@
+/*======== Comments Form==============*/
+
+.comment-respond {
+    border-top: 5px solid #ff4500;
+    padding: 20px;
+    border-bottom: 5px solid #ff4500;
+    border-left: 5px solid #373e51;
+    border-right: 5px solid #373e51;
+}
+
+.comment-reply-title span {
+    border-radius: 50%;
+    background: #337ab7;
+    text-align: center;
+    font-size: 13px;
+    margin-right: 6px;
+    padding: 0.425rem 0.75rem;
+}
+
+.comment-reply-title span.badge {
+    font: 500 20px/18px "Roboto Slab", Verdana, sans-serif !important;
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.comment-reply-title,
+.comments-header {
+    font: 500 18px/18px "Roboto Slab", Verdana, sans-serif;
+    padding: 12px;
+    color: white;
+    background: #ff4500;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+
+.comment-reply-title a {
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #373e51;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.comment-form,
+.comment-respond form,
+.comments .comments-inner {
+    margin-top: 20px;
+}
+
+.comment-notes {
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+}
+
+.comment-form label,
+.comment-form-comment label,
+.logged-in-as a {
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.comment-form input[type="text"],
+.comment-form textarea,
+.comment-form-comment textarea {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15) !important;
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.comment-form textarea,
+.comment-form-comment textarea {
+    height: 100px;
+}
+
+.comment-reply-title::before,
+.comment-reply-title::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.comment-respond input[type="submit"] {
+    background: #ff4500;
+    color: white;
+    font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    text-decoration: none;
+    margin-bottom: 6px;
+}
+
+.comments-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.comments-section ul li {
+    margin-top: 20px;
+}
+
+.comments-section ul li.comment {
+    position: relative;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.comments-section {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.comment-author-label {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.comment-author-label-editor {
+    background-color: #efefef;
+}
+
+.comment-author-label-author {
+    background-color: #faeeee;
+}
+
+.comment-author-label-contributor {
+    background-color: #f0faee;
+}
+
+.comment-author-label-subscriber {
+    background-color: #eef5fa;
+}
+
+.comment-author-label-administrator {
+    background-color: #fde9ff;
+}
+
+/*======== Comments Box==============*/
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel-primary {
+    border-color: #337ab7;
+}
+
+.panel-heading {
+    display: flex;
+    position: relative;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #337ab7;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.panel-heading img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(254, 0, 54, .15);
+    border-radius: 5px;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .15) !important;
+}
+
+.panel-heading h5 {
+    margin: auto 0;
+    color: #FF4500;
+}
+
+.panel-footer a.comment-edit-link,
+.panel-footer a.comment-reply-link {
+    background: #ff4500;
+    color: white;
+    font: 500 13px/18px "Roboto Slab", Verdana, sans-serif;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    text-decoration: none;
+    margin-bottom: 6px;
+}
+
+.panel-body p {
+    font: 500 15px/18px "Roboto Slab", Verdana, sans-serif;
+    color: #212529;
+}
+
+.comments-section ul ul {
+    margin-left: 10px;
+}
